@@ -801,3 +801,35 @@ table .inventory{
 .developer .social-networks {
 	color:#cc3333;font-weight:bold;
 }
+/*
+blockquote p
+    {
+    padding: 0px 15px 0px 0px;
+    font-size: 1.2em;    
+    float: left;
+    background: url(../images/quote_down.png) bottom right no-repeat;
+}
+
+blockquote
+    {
+    padding: 20px;
+    font-size: 1.1em;    
+    background: url(../images/quote_up.png) top left no-repeat;
+}
+
+cite
+    {
+    font-size: 1.2em;
+    float: right;    
+}  
+*/
+blockquote::before{
+	content: url(../images/quote_down.png) bottom right no-repeat;
+	/*content:'"';
+	display:inline;*/
+}
+blockquote::after{
+	content: url(../images/quote_up.png) bottom right no-repeat;
+	/*content:'"';
+	display:inline;*/
+}
