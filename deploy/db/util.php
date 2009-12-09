@@ -200,4 +200,8 @@ class DBAccess {
 	*/
 
 }
+
+/*
+I am going to add mysql configuration.
+*/
 ?>
