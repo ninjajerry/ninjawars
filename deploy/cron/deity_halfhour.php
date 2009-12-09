@@ -7,7 +7,7 @@ $logMessage = "DEITY_HALFHOUR STARTING: ".date(DATE_RFC1036)."\n";
 $regen_rate           = 1;
 $turn_regen_threshold = 100;
 $maximum_heal         = 150;
-$maxtime              = '6 hours'; // *** Max time a person is kept online without being active.
+$maxtime              = '15 minutes'; // *** Max time a person is kept online without being active. 6 hours is not online. 15m  minustes is better
 $score                = get_score_formula();
 
 $sql = new DBAccess();
